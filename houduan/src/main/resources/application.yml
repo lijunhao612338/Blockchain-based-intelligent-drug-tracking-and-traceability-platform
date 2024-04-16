@@ -1,0 +1,35 @@
+server:
+  servlet:
+    context-path: /api
+  port: 8080
+spring:
+  application:
+    #应用的名称，可选
+    name: reggie_take_out
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://124.71.213.27:3306/zly3?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: Tronk@123
+mybatis-plus:
+  configuration:
+    #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+reggie:
+  path: D:\img\
+
+fabricgateway:
+  certificatePath: C:/Users/Administrator/Desktop/reggie_take_out/reggie_take_out/src/main/resources/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/Admin@org1.example.com-cert.pem
+  privateKeyPath: C:/Users/Administrator/Desktop/reggie_take_out/reggie_take_out/src/main/resources/crypto-config/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/priv_sk
+  tlsCertPath: C:/Users/Administrator/Desktop/reggie_take_out/reggie_take_out/src/main/resources/crypto-config/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+  nettyChannelBuilder: 192.168.238.132:7051
+  overrideAuthority: peer0.org1.example.com
+  chainCodeName: ledger
+#  contractName: ledger
+  channelName: mychannel
+  mspId: Org1MSP

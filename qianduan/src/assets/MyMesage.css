@@ -1,0 +1,67 @@
+.msg{
+    height: 850px;
+    width: 1640px;
+    position: relative;
+    left: 20px;
+    top: 12px;
+    background-color: #fff;
+  }
+  .msg span{
+    color: #71747B;
+    margin-right: 10px;
+}
+.title{
+    margin-bottom: 15px;
+}
+.title span{
+    color: #333333;
+}
+  .form-left-name {
+      margin-top: 20px;
+      margin-left: 22px;
+  }
+  
+  .form-right-name {
+      margin-top: 20px;
+      margin-left: 159px;
+  }
+  .form-right-right-name{
+      margin-top: 20px;
+      margin-left: 134px;
+  }
+  .inputborder {
+      margin-top: 20px;
+      width: 300px;
+      height: 32px;
+      background: #ffffff;
+      border: 1px solid #f0f1f3;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+      font-weight: normal;
+      text-align: LEFT;
+      color: #333333;
+      line-height: 20px;
+  }
+  .form-left-bt-name{
+      margin-top: 100px;
+      margin-left: 22px;
+  }
+  .bt-inputborder{
+      margin-top: 100px;
+      width: 300px;
+      height: 32px;
+      background: #ffffff;
+      border: 1px solid #f0f1f3;
+      border-radius: 6px;
+      font-size: 14px;
+      font-family: Microsoft YaHei, Microsoft YaHei-Normal;
+      font-weight: normal;
+      text-align: LEFT;
+      color: #333333;
+      line-height: 20px;
+  }
+  .form-right-bt-name{
+      margin-top: 100px;
+      margin-left: 175px;
+  }

@@ -1,0 +1,41 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+html,body{
+  width: 100%;
+}
+#app{
+    height: 960px;
+    width: 100%;
+    position:static;
+    right: 0%;
+    left: 0%;
+  }
+
+  .Aside{
+    width: 240px;
+    height: 779px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+  }
+  .Header{
+    width: 1920px;
+    height: 60px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+  .Main{
+    position: relative;
+    left: 240px;
+    top: 80px;
+    height: 880px;
+    width: 1680px;
+    background-color:#f0f1f6 ;
+  }
+  .el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #FD7A3A;   
+    color: #fff;
+  }
